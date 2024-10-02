@@ -61,4 +61,4 @@ return 0;
 
 
 //here without virtual class inheritance is not possible create object of class D
-//its star inheritance
+//Virtual inheritance is a powerful feature in C++ that helps manage complex inheritance scenarios and prevents the diamond problem. 
