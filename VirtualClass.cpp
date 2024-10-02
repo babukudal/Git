@@ -56,6 +56,7 @@ int main( )
 {
 D *d = new D();
 d->print();
+delete(d);
 return 0;
 }
 

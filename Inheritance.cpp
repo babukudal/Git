@@ -8,7 +8,7 @@ public:
     Person(){}
 
     virtual void print(){ cout << "Name is : " << name << endl ; }
-~Person() { }
+virtual ~Person() { }
 };
 class  Student :public  Person {
     public:
@@ -29,6 +29,7 @@ int main()
     Person * b;
     b = new Student("AKU", "C++");
     b->print();
+    delete(b);
 
 }
 //in this code result is correct but it has a problem with memory management.
